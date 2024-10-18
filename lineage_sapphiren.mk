@@ -16,4 +16,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23124RA7EO
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="sapphiren_global-user 15 AQ3A.240829.003 OS2.0.211.0.VNHMIXM release-keys" \
+    BuildFingerprint=Redmi/sapphiren_global/sapphiren:15/AQ3A.240829.003/OS2.0.211.0.VNHMIXM:user/release-keys \
+    DeviceProduct=sapphiren \
+    SystemName=sapphiren_global
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
