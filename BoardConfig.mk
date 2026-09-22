@@ -10,4 +10,8 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 # Inherit from the proprietary version
 include vendor/xiaomi/sapphiren/BoardConfigVendor.mk
 
+
 DEVICE_PATH := device/xiaomi/sapphiren
+
+# Inherit Proprietary Vendor
+$(call inherit-product, vendor/xiaomi/sapphiren/sapphiren-vendor.mk)
